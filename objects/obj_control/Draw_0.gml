@@ -2,6 +2,7 @@
 // You can write your code in this editor
 draw_text(8, 8, "Score: " + string(global.player_score));
 draw_text(8, 32, "High Score: " + string(global.high_score));
+draw_text(560, 8, "Level: " + string(global.level));
 
 _x = (room_width/2) - ((global.player_lives-1) * 32);
 repeat(global.player_lives){
